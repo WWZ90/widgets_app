@@ -6,7 +6,12 @@ class MenuItem {
   final String link;
   final IconData icon;
 
-  const MenuItem({required this.title, required this.subTitle, required this.link, required this.icon});
+  const MenuItem({
+    required this.title,
+    required this.subTitle,
+    required this.link,
+    required this.icon,
+  });
 }
 
 const appMenuItems = <MenuItem>[
@@ -14,7 +19,7 @@ const appMenuItems = <MenuItem>[
     title: 'Widgets',
     subTitle: 'Basic widgets',
     link: '/widgets',
-    icon: Icons.widgets
+    icon: Icons.widgets,
   ),
   MenuItem(
     title: 'Buttons',
@@ -39,5 +44,11 @@ const appMenuItems = <MenuItem>[
     subTitle: 'General and controllers',
     link: '/progress',
     icon: Icons.refresh_outlined,
+  ),
+  MenuItem(
+    title: 'Snackbars',
+    subTitle: 'Snackbars',
+    link: '/snackbars',
+    icon: Icons.info_outline,
   ),
 ];
