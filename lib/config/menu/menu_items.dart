@@ -16,12 +16,6 @@ class MenuItem {
 
 const appMenuItems = <MenuItem>[
   MenuItem(
-    title: 'Widgets',
-    subTitle: 'Basic widgets',
-    link: '/widgets',
-    icon: Icons.widgets,
-  ),
-  MenuItem(
     title: 'Buttons',
     subTitle: 'Buttons widgets',
     link: '/buttons',
@@ -32,12 +26,6 @@ const appMenuItems = <MenuItem>[
     subTitle: 'Cards widgets',
     link: '/cards',
     icon: Icons.credit_card,
-  ),
-  MenuItem(
-    title: 'Dialogs',
-    subTitle: 'Dialogs widgets',
-    link: '/dialogs',
-    icon: Icons.chat_bubble,
   ),
   MenuItem(
     title: 'Progress Indicator',
