@@ -57,7 +57,7 @@ class _ButtonsView extends StatelessWidget {
             label: const Text('Text Icon Button'),
           ),
           IconButton(onPressed: () {}, icon: const Icon(Icons.add)),
-          FloatingActionButton(onPressed: () {}, child: const Icon(Icons.add)),
+          FloatingActionButton(onPressed: () {}, heroTag: null, child: const Icon(Icons.add)),
           FilledButton(onPressed: () {}, child: const Text('Filled Button')),
           FilledButton.icon(
             onPressed: () {},
