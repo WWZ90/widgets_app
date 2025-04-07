@@ -42,7 +42,7 @@ class _CustomListTile extends StatelessWidget {
       subtitle: Text(menuItem.subTitle),
       trailing: Icon(Icons.chevron_right_outlined, color: colors.primary),
       onTap: () {
-        context.pushNamed(menuItem.link);
+        context.push(menuItem.link);
       },
     );
   }
