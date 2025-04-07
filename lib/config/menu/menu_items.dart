@@ -34,4 +34,10 @@ const appMenuItems = <MenuItem>[
     link: '/dialogs',
     icon: Icons.chat_bubble,
   ),
+  MenuItem(
+    title: 'Progress Indicator',
+    subTitle: 'General and controllers',
+    link: '/progress',
+    icon: Icons.refresh_outlined,
+  ),
 ];
