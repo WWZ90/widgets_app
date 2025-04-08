@@ -14,14 +14,16 @@ const colorList = <Color>[
 ];
 
 class AppTheme {
-  final int selectecColor;
+  final int selectedColor;
+  final bool isDarkMode;
 
-  AppTheme({this.selectecColor = 0})
-    : assert(selectecColor >= 0 && selectecColor < colorList.length);
+  AppTheme({this.selectedColor = 0, this.isDarkMode = false})
+    : assert(selectedColor >= 0 && selectedColor < colorList.length);
 
   ThemeData getTheme() => ThemeData(
     useMaterial3: true,
-    colorSchemeSeed: colorList[selectecColor],
+    brightness: isDarkMode ? Brightness.dark : Brightness.light,
+    colorSchemeSeed: colorList[selectedColor],
     appBarTheme: AppBarTheme(centerTitle: true),
   );
 }
