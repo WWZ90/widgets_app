@@ -15,6 +15,12 @@ class MenuItem {
 }
 
 const appMenuItems = <MenuItem>[
+    MenuItem(
+    title: 'Counter Screen',
+    subTitle: 'A simple counter screen',
+    link: '/counter',
+    icon: Icons.add,
+  ),
   MenuItem(
     title: 'Buttons',
     subTitle: 'Buttons widgets',
