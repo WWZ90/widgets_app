@@ -1,3 +1,5 @@
-# widgets_app
+# Widgets app
 
-A new Flutter project.
+An app to display the different Flutter widgets.
+Developed with Fernando Herrera's course.
+Using Riverpod.
